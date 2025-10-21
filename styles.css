@@ -9,18 +9,19 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh; 
-  background-color: #f2f2f2;
+  background-color: #9eadac;
 }
 
 header {
-  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f33c3c;
   color: white;
-  padding: 15px 0;
 }
 
 nav {
   display: flex;
-  justify-content: center;
   gap: 20px;
 }
 
@@ -41,8 +42,16 @@ main {
 }
 
 footer {
-  background-color: #e00d0d;
+  background-color: #000000;
   color: white;
   text-align: center;
   padding: 10px 0;
+}
+
+/* --- LOGO --- */
+#logo {
+  width: 70px;       /* ajusta el tamaño: prueba entre 80 y 150 según te guste */
+  height: auto;       /* mantiene proporciones */
+  margin-right: 20px; /* separa el logo del menú */
+  vertical-align: middle;
 }
