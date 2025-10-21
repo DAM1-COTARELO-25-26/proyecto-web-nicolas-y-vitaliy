@@ -48,10 +48,9 @@ footer {
   padding: 10px 0;
 }
 
-/* --- LOGO --- */
 #logo {
-  width: 70px;       /* ajusta el tamaño: prueba entre 80 y 150 según te guste */
-  height: auto;       /* mantiene proporciones */
-  margin-right: 20px; /* separa el logo del menú */
+  width: 70px;       
+  height: auto;       
+  margin-right: 20px; 
   vertical-align: middle;
 }
