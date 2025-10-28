@@ -7,7 +7,7 @@
   
   ## Caracteristicas
 
-* Catálogo amplio: iPhone, Samsung, Xiaomi, Motorola, Huawei y más.
+* Catálogo amplio: iPhone, Samsung, Xiaomi,Huawei y más.
 
 * Ofertas y descuentos exclusivos: promociones semanales y financiación sin intereses.
 
@@ -16,5 +16,3 @@
 * Garantía y soporte técnico: atención personalizada y servicio postventa.
 
 * Buscador inteligente: encuentra fácilmente el móvil que se adapta a tus necesidades.
-
-* Comparador de modelos: compara características, precios y opiniones.
