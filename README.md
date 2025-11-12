@@ -17,7 +17,7 @@
 
 * Buscador inteligente: encuentra fácilmente el móvil que se adapta a tus necesidades.
 
-  ## Apartados web
+## Apartados web
   
 * Catálogo: En el catálogo los usuarios podrán explorar todos los modelos de móviles disponibles, organizados por marcas, gamas y precios.
   
