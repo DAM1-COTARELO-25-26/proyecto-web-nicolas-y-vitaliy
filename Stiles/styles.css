@@ -54,3 +54,81 @@ footer {
   margin-right: 20px; 
   vertical-align: middle;
 }
+
+.producto {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 30px auto;
+  width: 200px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+.boton{
+   display: inline-block;
+  background: #000;
+  color: white;
+  padding: 7px 17px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.boton:hover {
+  background: #222;
+}
+
+.precio {
+  font-size: 1.2em;
+  color: #f33c3c;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.imagen-producto {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.productos{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  height: auto;
+}
+
+.seccion {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #e7ebea;
+  height: auto;
+  margin-bottom: 0px;
+}
+
+.portada.sobre-portada {
+  background-color: #f33c3c;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contenido-portada h1 {
+  font-size: clamp(28px, 4vw, 46px);
+  margin-bottom: 10px;
+}
+
+.contenido-portada p {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.encabezado-seccion h2 {
+  color: #f33c3c;
+  margin-bottom: 10px;
+}

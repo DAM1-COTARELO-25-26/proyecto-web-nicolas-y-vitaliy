@@ -197,3 +197,27 @@ footer {
 .boton.principal:hover {
   background: #222;
 }
+
+.formulario-contacto {
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: left;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contacto label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+#descripcion {
+  height: 150px;
+  width: 100%;
+}
+
+.boton:hover {
+  background: #222;
+}
