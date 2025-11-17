@@ -200,8 +200,8 @@ footer {
 
 .formulario-contacto {
   max-width: 1000px;
-  margin: 40px auto;
-  text-align: left;
+  margin: 4px auto;
+  text-align: center;
   background: white;
   padding: 20px;
   border-radius: 12px;
@@ -209,9 +209,10 @@ footer {
 }
 
 .formulario-contacto label {
-  display: block;
-  margin-bottom: 8px;
+  display:block;
+  margin-bottom: 3px;
   font-weight: bold;
+  text-align: center;
 }
 #descripcion {
   height: 150px;
@@ -221,3 +222,4 @@ footer {
 .boton:hover {
   background: #222;
 }
+
