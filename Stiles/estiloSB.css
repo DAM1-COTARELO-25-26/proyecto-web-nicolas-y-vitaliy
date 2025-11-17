@@ -9,16 +9,15 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #9eadac;
+  background-color: #030303;
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #f33c3c;
+  background-color: #e1f887;
   color: white;
-  padding: 10px 20px;
 }
 
 #logo {
@@ -36,19 +35,18 @@ nav {
 
 nav a,
 nav a:visited {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #00bfff;
+  color: #000000;
   text-decoration: underline;
 }
 
 main {
   flex: 1;
-  padding: 20px;
   text-align: center;
 }
 
@@ -60,7 +58,7 @@ footer {
 }
 
 .portada.sobre-portada {
-  background-color: #f33c3c;
+  background-color: #070000;
   color: white;
   padding: 60px 20px;
   text-align: center;
@@ -82,7 +80,7 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 16px;
   padding: 40px 20px;
-  background-color: #e7ebea;
+  background-color: white;
 }
 
 .estadisticas article {
@@ -94,7 +92,7 @@ footer {
 
 .estadisticas h3 {
   font-size: 2rem;
-  color: #f33c3c;
+  color: #000000;
 }
 
 .seccion {
@@ -104,7 +102,7 @@ footer {
 }
 
 .encabezado-seccion h2 {
-  color: #f33c3c;
+  color: #000000;
   margin-bottom: 10px;
 }
 
@@ -123,7 +121,7 @@ footer {
 }
 
 .tarjeta h3 {
-  color: #f33c3c;
+  color: #000000;
   margin-bottom: 8px;
 }
 
@@ -132,7 +130,7 @@ footer {
   margin: 0 auto;
   padding: 0;
   max-width: 700px;
-  border-left: 3px solid #f33c3c;
+  border-left: 3px solid #e1f887;
 }
 
 .linea-tiempo li {
@@ -148,7 +146,7 @@ footer {
   position: absolute;
   left: -15px;
   top: 20px;
-  background: #f33c3c;
+  background: #000000;
   color: white;
   font-weight: bold;
   border-radius: 50%;
@@ -174,12 +172,12 @@ footer {
 }
 
 .tarjeta-confianza h3 {
-  color: #f33c3c;
+  color: #0e0e0e;
 }
 
 .llamada-accion {
-  background-color: #f33c3c;
-  color: white;
+  background-color: #e1f887;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 50px 20px;
 }
@@ -223,3 +221,6 @@ footer {
   background: #222;
 }
 
+#estrellas{
+  
+}
