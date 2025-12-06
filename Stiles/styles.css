@@ -104,7 +104,7 @@ footer {
 }
 
 .seccion {
-  padding: 40px 20px;
+  padding: 60px 20px;
   text-align: center;
   background-color: #e7ebea;
   height: auto;
@@ -118,17 +118,13 @@ footer {
   text-align: center;
 }
 
-.contenido-portada h1 {
-  font-size: clamp(28px, 4vw, 46px);
-  margin-bottom: 10px;
+.contenido-portada p {
+  line-height: 1.2;
+  padding: 12px 40px;
+  text-align: center;
 }
 
-.contenido-portada p {
-  max-width: 800px;
-  margin: 0 auto;
-  line-height: 1.6;
-}
-.encabezado-seccion h2 {
-  color: #f33c3c;
-  margin-bottom: 10px;
+.encabezado-seccion {
+  justify-content: center; /* Esto sobrescribe el space-between y lo centra */
+  padding: 10px; /* Opcional: para que el texto no toque los bordes arriba/abajo */
 }
