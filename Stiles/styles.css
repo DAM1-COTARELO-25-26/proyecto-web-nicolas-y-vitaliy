@@ -9,15 +9,15 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh; 
-  background-color: #9eadac;
+  background-color: white;
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #f33c3c;
-  color: white;
+  background-color: #e1f887;
+  color: black;
 }
 
 nav {
@@ -26,13 +26,13 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #00bfff;
+  color: #2f3234;
 }
 
 main {
@@ -106,16 +106,19 @@ footer {
 .seccion {
   padding: 60px 20px;
   text-align: center;
-  background-color: #e7ebea;
+  background-color: black;
   height: auto;
   margin-bottom: 0px;
+  border-radius: 20px;
+  border-top: 12px solid #000000;
 }
 
 .portada.sobre-portada {
-  background-color: #f33c3c;
-  color: white;
+  background-color: #e1f887;
+  color: black;
   padding: 60px 20px;
   text-align: center;
+  border-radius: 0 0 20px 20px;
 }
 
 .contenido-portada p {
@@ -125,6 +128,7 @@ footer {
 }
 
 .encabezado-seccion {
-  justify-content: center; /* Esto sobrescribe el space-between y lo centra */
-  padding: 10px; /* Opcional: para que el texto no toque los bordes arriba/abajo */
+  justify-content: center; 
+  padding: 10px;
+  border-radius: 12px;
 }
