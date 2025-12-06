@@ -106,11 +106,10 @@ footer {
 .seccion {
   padding: 60px 20px;
   text-align: center;
-  background-color: black;
   height: auto;
   margin-bottom: 0px;
   border-radius: 20px;
-  border-top: 12px solid #000000;
+  border-top: 1px solid ;
 }
 
 .portada.sobre-portada {
