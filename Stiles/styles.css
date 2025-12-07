@@ -110,14 +110,17 @@ footer {
   margin-bottom: 0px;
   border-radius: 20px;
   border-top: 1px solid ;
+  margin-top: -20px;
+  font-weight: bold;
 }
 
 .portada.sobre-portada {
-  background-color: #e1f887;
-  color: black;
+  background-color: #000000;
+  color: white;
   padding: 60px 20px;
   text-align: center;
-  border-radius: 0 0 20px 20px;
+  border-radius: 20px 20px;
+  margin-top: 12px;
 }
 
 .contenido-portada p {
