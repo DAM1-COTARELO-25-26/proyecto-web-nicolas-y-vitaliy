@@ -220,3 +220,23 @@ footer {
 .boton:hover {
   background: #222;
 }
+
+.encabezado-seccion {
+  justify-content:center; 
+  padding: 10px;
+  border-radius: 12px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.resaltado {
+    font-weight: bold;      
+    font-size: 1.4em;      
+    text-transform: uppercase;
+}
+
+.estadisticas{
+  background-color: #e7ebea;
+}
