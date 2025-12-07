@@ -18,6 +18,8 @@ header {
   justify-content: space-between;
   background-color: #e1f887;
   color: white;
+  margin: 0px;
+  padding: 5px 10px;
 }
 
 #logo {

@@ -4,95 +4,298 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Proyecto HTML y CSS - Lenguajes de Marcas (1º DAM)">
-  <title>Grupo 12 - Proyecto Web</title>
-  <link rel="stylesheet" href="/Stiles/styles.css">
+  <meta name="description" content="MoVendi - Tienda de Móviles">
+  <title>MoVendi - Inicio</title>
+  <link rel="stylesheet" href="Stiles/styles.css">
+  <link rel="icon" type="image/x-icon" href="img/logo.png">
+
 </head>
 
 <body>
   <header>
-    <a href="../index.html">
-      <img id="logo" src="../img/logo.png" alt="MoVendi" />
+    <a href="index.html">
+      <img id="logo" src="img/logo.png" alt="MoVendi" />
     </a>
     <nav>
-      <a href="/index.html" style="text-decoration: underline;">Inicio</a>
-      <a href="/subPaginas/catalogo.html">Catálogo</a>
-      <a href="/subPaginas/ofertas.html">Ofertas</a>
-      <a href="/subPaginas/contacto.html">Contacto</a>
-      <a href="/subPaginas/sobreNosotros.html">Sobre Nosotros</a>
+      <a href="index.html" style="text-decoration: underline;">Inicio</a>
+      <a href="subPaginas/catalogo.html">Catálogo</a>
+      <a href="subPaginas/ofertas.html">Ofertas</a>
+      <a href="subPaginas/sobreNosotros.html">Sobre Nosotros</a>
+      <a href="subPaginas/contacto.html">Contacto</a>
+      <a href="subPaginas/carrito.html">🛒 Carrito (<span id="cart-count">0</span>)</a>
     </nav>
   </header>
 
   <main>
-    <section class="portada sobre-portada">
-      <div class="contenido-portada">
-        <h1>Bienvenido a nuestra tienda de móviles</h1>
-        <p>
-            Proyecto web de Nicolás Amoedo Castro y Vitaliy Ivanets
-        </p>
-      </div>
+    <section class="hero-title">
+        <h1>Bienvenido a MoVendi</h1>
+        <p>Tu tecnología favorita, ahora más cerca.</p>
     </section>
-    <section class="seccion">
-      <header class="encabezado-seccion">
-        <p>Encuentra las mejores marcas y precios en smartphones de última generación</p>
-      </header>
-    
 
-    <section class="productos">
-        <div class="producto">
-            <img class="imagen-producto" src="/img/iphone15.jpg" alt="iPhone 15">
-            <h3>iPhone 15</h3>
-            <p class="precio">€1,099.00</p>
-            <a href="#" class="boton">Añadir al carrito</a>
+    <div class="split-container">
+        
+        <div class="split-side">
+            <h2 class="section-title">Novedades Catálogo</h2>
+            
+            <div class="carousel-container" id="carousel-catalogo">
+                <button class="carousel-btn prev">&#10094;</button>
+                <div class="carousel-track">
+                    
+                    <div class="carousel-slide">
+                        <img src="img/razr-60-ultra-PANTONE-Rio-Red.avif" alt="Razr 60 Ultra">
+                        <h3>Motorola Razr 60 Ultra</h3>
+                        <div class="color-name">Rio Red</div>
+                        <p style="color:#333;">€1,299.00</p>
+                        <a href="subPaginas/catalogo.html" class="btn-action">Ver en Catálogo</a>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="img/Motorola_Edge_70_Lily_Pad.avif" alt="Motorola Edge 70">
+                        <h3>Motorola Edge 70</h3>
+                        <div class="color-name">Lily Pad</div>
+                        <p style="color:#333;">€999.00</p>
+                        <a href="subPaginas/catalogo.html" class="btn-action">Ver en Catálogo</a>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="img/Samsung_Galaxy_A26_Mint.avif" alt="Samsung Galaxy A26">
+                        <h3>Samsung Galaxy A26</h3>
+                        <div class="color-name">Mint Green</div>
+                        <p style="color:#333;">€299.00</p>
+                        <a href="subPaginas/catalogo.html" class="btn-action">Ver en Catálogo</a>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="img/Samsung_Galaxy_S25_Mint.avif" alt="Samsung Galaxy S25">
+                        <h3>Samsung Galaxy S25</h3>
+                        <div class="color-name">Mint</div>
+                        <p style="color:#333;">€909.00</p>
+                        <a href="subPaginas/catalogo.html" class="btn-action">Ver en Catálogo</a>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="img/Motorola_G86_Power_Spellbound.avif" alt="Moto G86 Power">
+                        <h3>Moto G86 Power</h3>
+                        <div class="color-name">Spellbound</div>
+                        <p style="color:#333;">€299.00</p>
+                        <a href="subPaginas/catalogo.html" class="btn-action">Ver en Catálogo</a>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="img/iPhone_17_Pro_Max_Deep_Blue_PDP_Image_Position_1__WWEN.webp" alt="iPhone 17 Pro Max">
+                        <h3>iPhone 17 Pro Max</h3>
+                        <div class="color-name">Deep Blue</div>
+                        <p style="color:#333;">€1,469.00</p>
+                        <a href="subPaginas/catalogo.html" class="btn-action">Ver en Catálogo</a>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="img/iPhone_Air_Cloud_White_PDP_Image_Position_1__WWEN.webp" alt="iPhone Air">
+                        <h3>iPhone Air</h3>
+                        <div class="color-name">Cloud White</div>
+                        <p style="color:#333;">€1,219.00</p>
+                        <a href="subPaginas/catalogo.html" class="btn-action">Ver en Catálogo</a>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="img/iPhone_17_Pro_Cosmic_Orange_PDP_Image_Position_1__WWEN.webp" alt="iPhone 17 Pro">
+                        <h3>iPhone 17 Pro</h3>
+                        <div class="color-name">Cosmic Orange</div>
+                        <p style="color:#333;">€1,319.00</p>
+                        <a href="subPaginas/catalogo.html" class="btn-action">Ver en Catálogo</a>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="img/iPhone_17_Mist_Blue.png" alt="iPhone 17">
+                        <h3>iPhone 17</h3>
+                        <div class="color-name">Mist Blue</div>
+                        <p style="color:#333;">€959.00</p>
+                        <a href="subPaginas/catalogo.html" class="btn-action">Ver en Catálogo</a>
+                    </div>
+
+                </div>
+                <button class="carousel-btn next">&#10095;</button>
+                <div class="carousel-dots" id="dots-catalogo"></div>
+            </div>
         </div>
 
-        <div class="producto">
-            <img class="imagen-producto" src="/img/samsung-s24.jpg" alt="Samsung Galaxy S24">
-            <h3>Samsung Galaxy S24</h3>
-            <p class="precio">€999.00</p>
-            <a href="#" class="boton">Añadir al carrito</a>
+        <div class="split-side">
+            <h2 class="section-title" style="color: #d0021b;">Super Packs</h2>
+            
+            <div class="carousel-container" id="carousel-ofertas">
+                <button class="carousel-btn prev">&#10094;</button>
+                <div class="carousel-track">
+                    
+                    <div class="carousel-slide">
+                        <img src="img/2025_SWAROVSKI_BUNDLE_1KSP_kopier.webp" alt="Swarovski Bundle">
+                        <h3 style="color: #008fa3;">Edición Swarovski®</h3>
+                        <div class="color-name">Ice Melt</div>
+                        <p>€1,599.00</p>
+                        <a href="subPaginas/ofertas.html" class="btn-action" style="background-color: #008fa3;">Ver Oferta</a>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="img/Motorola_Edge_70_Bronze_Green_Bundle.webp" alt="Edge 70 Pack">
+                        <h3>Pack Edge 70</h3>
+                        <div class="color-name">Bronze Green</div>
+                        <p>€1,099.00</p>
+                        <a href="subPaginas/ofertas.html" class="btn-action" style="background-color: #d0021b;">Ver Oferta</a>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="img/razr-60-ultra-PANTONE-Rio-Red-green-loops-bundle-product.avif" alt="Razr 60 Ultra Pack">
+                        <h3>Pack Premium Foldable</h3>
+                        <div class="color-name">Rio Red</div>
+                        <p>€1,299.00</p>
+                        <a href="subPaginas/ofertas.html" class="btn-action" style="background-color: #d0021b;">Ver Oferta</a>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="img/razr-60-PANTONE-Gibraltar-Sea-green-loops-bundle-product.avif" alt="Razr 60 Pack">
+                        <h3>Pack Estilo Razr 60</h3>
+                        <div class="color-name">Gibraltar Sea</div>
+                        <p>€899.00</p>
+                        <a href="subPaginas/ofertas.html" class="btn-action" style="background-color: #d0021b;">Ver Oferta</a>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="img/Motorola_Edge_70_Lily_Pad_Bundle.webp" alt="Edge 70 Pack">
+                        <h3>Pack Edge 70</h3>
+                        <div class="color-name">Lily Pad</div>
+                        <p>€1,099.00</p>
+                        <a href="subPaginas/ofertas.html" class="btn-action" style="background-color: #d0021b;">Ver Oferta</a>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="img/razr-60-ultra-PANTONE-Scarab-green-loops-bundle-product.avif" alt="Razr 60 Ultra Pack">
+                        <h3>Pack Premium Foldable</h3>
+                        <div class="color-name">Scarab Green</div>
+                        <p>€1,299.00</p>
+                        <a href="subPaginas/ofertas.html" class="btn-action" style="background-color: #d0021b;">Ver Oferta</a>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="img/razr-60-PANTONE-Spring-Bud-green-loops-bundle-product.avif" alt="Razr 60 Pack">
+                        <h3>Pack Estilo Razr 60</h3>
+                        <div class="color-name">Spring Bud</div>
+                        <p>€899.00</p>
+                        <a href="subPaginas/ofertas.html" class="btn-action" style="background-color: #d0021b;">Ver Oferta</a>
+                    </div>
+
+                     <div class="carousel-slide">
+                        <img src="img/Motorola_Edge_70_Gadget_Gray_Bundle.webp" alt="Edge 70 Pack">
+                        <h3>Pack Edge 70</h3>
+                        <div class="color-name">Gadget Gray</div>
+                        <p>€1,099.00</p>
+                        <a href="subPaginas/ofertas.html" class="btn-action" style="background-color: #d0021b;">Ver Oferta</a>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="img/razr-60-ultra-PANTONE-Cabaret-green-loops-bundle-product.avif" alt="Razr 60 Ultra Pack">
+                        <h3>Pack Premium Foldable</h3>
+                        <div class="color-name">Cabaret</div>
+                        <p>€1,299.00</p>
+                        <a href="subPaginas/ofertas.html" class="btn-action" style="background-color: #d0021b;">Ver Oferta</a>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="img/razr-60-PANTONE-Lightest-Sky-green-loops-bundle-product.avif" alt="Razr 60 Pack">
+                        <h3>Pack Estilo Razr 60</h3>
+                        <div class="color-name">Lightest Sky</div>
+                        <p>€899.00</p>
+                        <a href="subPaginas/ofertas.html" class="btn-action" style="background-color: #d0021b;">Ver Oferta</a>
+                    </div>
+
+                     <div class="carousel-slide">
+                        <img src="img/razr-60-ultra-PANTONE-Mountain-Trail-green-loops-bundle-product.avif" alt="Razr 60 Ultra Pack">
+                        <h3>Pack Premium Foldable</h3>
+                        <div class="color-name">Mountain Trail</div>
+                        <p>€1,299.00</p>
+                        <a href="subPaginas/ofertas.html" class="btn-action" style="background-color: #d0021b;">Ver Oferta</a>
+                    </div>
+
+                </div>
+                <button class="carousel-btn next">&#10095;</button>
+                <div class="carousel-dots" id="dots-ofertas"></div>
+            </div>
         </div>
 
-        <div class="producto">
-            <img class="imagen-producto" src="/img/xiaomi14.jpg" alt="Xiaomi 14 Pro">
-            <h3>Xiaomi 14 Pro</h3>
-            <p class="precio">€749.00</p>
-            <a href="#" class="boton">Añadir al carrito</a>
-        </div>
-
-        <div class="producto">
-            <img class="imagen-producto" src="/img/google-pixel9.jpg" alt="Google Pixel 9">
-            <h3>Google Pixel 9</h3>
-            <p class="precio">€899.00</p>
-            <a href="#" class="boton">Añadir al carrito</a>
-        </div>
-        <div class="producto">
-            <img class="imagen-producto" src="/img/google-pixel9.jpg" alt="Google Pixel 9">
-            <h3>Google Pixel 9</h3>
-            <p class="precio">€899.00</p>
-            <a href="#" class="boton">Añadir al carrito</a>
-        </div>
-        <div class="producto">
-            <img class="imagen-producto" src="/img/google-pixel9.jpg" alt="Google Pixel 9">
-            <h3>Google Pixel 9</h3>
-            <p class="precio">€899.00</p>
-            <a href="#" class="boton">Añadir al carrito</a>
-        </div>
-        <div class="producto">
-            <img class="imagen-producto" src="/img/google-pixel9.jpg" alt="Google Pixel 9">
-            <h3>Google Pixel 9</h3>
-            <p class="precio">€899.00</p>
-            <a href="#" class="boton">Añadir al carrito</a>
-        </div>
-    </section>
-</section>
+    </div>
   </main>
 
   <footer>
-
     <p>© 2025 MoVendi — Nicolás Amoedo Castro y Vitaliy Ivanets</p>
-
   </footer>
-</body>
 
+  <script>
+    function setupManualCarousel(containerId, dotsId) {
+        const container = document.getElementById(containerId);
+        if(!container) return;
+
+        const track = container.querySelector('.carousel-track');
+        const slides = Array.from(track.children);
+        
+        const btnPrev = container.querySelector('.carousel-btn.prev');
+        const btnNext = container.querySelector('.carousel-btn.next');
+        const dotsContainer = document.getElementById(dotsId);
+
+        let currentIndex = 0;
+
+        
+        slides.forEach((_, index) => {
+            const dot = document.createElement('div');
+            dot.classList.add('dot');
+            if (index === 0) dot.classList.add('active');
+            dot.addEventListener('click', () => {
+                currentIndex = index;
+                updateCarousel();
+            });
+            dotsContainer.appendChild(dot);
+        });
+        
+        const dots = Array.from(dotsContainer.children);
+
+        function updateCarousel() {
+            
+            const amountToMove = -100 * currentIndex;
+            track.style.transform = `translateX(${amountToMove}%)`;
+            
+           
+            dots.forEach(d => d.classList.remove('active'));
+            if(dots[currentIndex]) dots[currentIndex].classList.add('active');
+        }
+
+        
+        btnNext.addEventListener('click', () => {
+            currentIndex++;
+            if (currentIndex >= slides.length) {
+                currentIndex = 0; 
+            }
+            updateCarousel();
+        });
+
+        btnPrev.addEventListener('click', () => {
+            currentIndex--;
+            if (currentIndex < 0) {
+                currentIndex = slides.length - 1; 
+            }
+            updateCarousel();
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+
+        setupManualCarousel('carousel-catalogo', 'dots-catalogo');
+        
+
+        setupManualCarousel('carousel-ofertas', 'dots-ofertas');
+        
+
+        const cart = JSON.parse(localStorage.getItem('carrito')) || [];
+        const countSpan = document.getElementById('cart-count');
+        if(countSpan) countSpan.innerText = cart.length;
+    });
+  </script>
+
+</body>
 </html>
