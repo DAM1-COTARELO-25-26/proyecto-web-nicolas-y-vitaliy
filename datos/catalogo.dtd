@@ -1,0 +1,28 @@
+<!ELEMENT catalogo (smartphone+)>
+
+<!ELEMENT smartphone (marca, modelo, precio, descripcion, especificaciones, colores, stock)>
+<!ATTLIST smartphone
+          id ID #REQUIRED
+          sistema (Android | iOS) #REQUIRED
+          destacado (true | false) #REQUIRED>
+
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio
+          moneda CDATA #FIXED "EUR">
+
+<!ELEMENT descripcion (#PCDATA)>
+
+<!ELEMENT especificaciones (almacenamiento, ram, fechaLanzamiento)>
+<!ELEMENT almacenamiento (#PCDATA)>
+<!ELEMENT ram (#PCDATA)>
+<!ELEMENT fechaLanzamiento (#PCDATA)>
+
+<!ELEMENT colores (color+)>
+<!ELEMENT color (#PCDATA)>
+<!ATTLIST color
+          hex CDATA #REQUIRED>
+
+<!ELEMENT stock (#PCDATA)>
