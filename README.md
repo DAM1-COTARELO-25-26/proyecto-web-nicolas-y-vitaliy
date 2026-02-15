@@ -25,6 +25,7 @@ Se ha estructurado el catálogo de productos utilizando XML para asegurar la int
 ### Archivos desarrollados
 * **`/datos/catalogo.xml`**: Archivo principal que contiene la estructura de datos de los smartphones (marcas, modelos, precios, especificaciones técnicas y stock).
 * **`/datos/catalogo.xsd`**: Esquema de validación (XML Schema) que define las reglas estrictas del negocio, como tipos de datos, rangos de precios permitidos y formatos de código.
+* **`/datos/catalogo.dtd`**: Definición de Tipo de Documento (DTD) que establece la estructura jerárquica obligatoria, el orden de los elementos y los atributos para la validación básica del catálogo.
 
 ### Validación
 El proceso de validación y las decisiones de diseño (uso de elementos vs atributos, restricciones de tipos, etc.) están documentados en **`/datos/validacion.md`**.
