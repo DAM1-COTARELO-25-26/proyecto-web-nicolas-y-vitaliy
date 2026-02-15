@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="catalogo">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="smartphone" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <xs:element name="marca">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Apple" />
+                                        <xs:enumeration value="Samsung" />
+                                        <xs:enumeration value="Motorola" />
+                                        <xs:enumeration value="Xiaomi" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="modelo" type="xs:string" />
+
+                            <xs:element name="precio">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="precioRestringido">
+                                            <xs:attribute name="moneda" type="xs:string" fixed="EUR" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="descripcion">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:minLength value="10" />
+                                        <xs:maxLength value="300" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="especificaciones">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="almacenamiento" type="xs:positiveInteger" />
+                                        <xs:element name="ram" type="xs:positiveInteger" />
+                                        <xs:element name="fechaLanzamiento" type="xs:date" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="colores">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="color" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="hex" use="required">
+                                                            <xs:simpleType>
+                                                                <xs:restriction base="xs:string">
+                                                                    <xs:pattern
+                                                                        value="#[0-9a-fA-F]{6}" />
+                                                                </xs:restriction>
+                                                            </xs:simpleType>
+                                                        </xs:attribute>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="stock" type="xs:boolean" />
+
+                        </xs:sequence>
+
+                        <xs:attribute name="id" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:pattern value="MOV-[0-9]{3}" />
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+
+                        <xs:attribute name="sistema" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Android" />
+                                    <xs:enumeration value="iOS" />
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+
+                        <xs:attribute name="destacado" type="xs:boolean" default="false" />
+
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="precioRestringido">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="10.00" />
+            <xs:maxInclusive value="3000.00" />
+            <xs:fractionDigits value="2" />
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>
