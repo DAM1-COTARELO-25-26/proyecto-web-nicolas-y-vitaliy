@@ -6,24 +6,61 @@
         <marca>Motorola</marca>
         <modelo>Razr 60 Ultra</modelo>
         <precio moneda="EUR">1299.00</precio>
-        <descripcion>Movil plegable con pantalla externa grande.</descripcion>
+        <descripcion>Móvil plegable con diseño icónico y pantalla externa grande.</descripcion>
         <especificaciones>
             <almacenamiento>512</almacenamiento>
             <ram>12</ram>
-            <fechaLanzamiento>2025-06-15</fechaLanzamiento>
+            <fechaLanzamiento>2025-06-01</fechaLanzamiento>
         </especificaciones>
         <colores>
             <color hex="#5d2b36">Rio Red</color>
             <color hex="#2f4538">Scarab Green</color>
+            <color hex="#a63d5b">Cabaret</color>
+            <color hex="#4a4238">Mountain Trail</color>
         </colores>
         <stock>true</stock>
     </smartphone>
 
     <smartphone id="MOV-002" sistema="Android" destacado="true">
+        <marca>Motorola</marca>
+        <modelo>Edge 70</modelo>
+        <precio moneda="EUR">999.00</precio>
+        <descripcion>Diseño curvo elegante y rendimiento premium.</descripcion>
+        <especificaciones>
+            <almacenamiento>256</almacenamiento>
+            <ram>12</ram>
+            <fechaLanzamiento>2025-05-15</fechaLanzamiento>
+        </especificaciones>
+        <colores>
+            <color hex="#9caea9">Lily Pad</color>
+            <color hex="#5c5e4b">Bronze Green</color>
+            <color hex="#4a4a4a">Gadget Gray</color>
+        </colores>
+        <stock>true</stock>
+    </smartphone>
+
+    <smartphone id="MOV-003" sistema="Android" destacado="false">
+        <marca>Samsung</marca>
+        <modelo>Galaxy A26</modelo>
+        <precio moneda="EUR">299.00</precio>
+        <descripcion>La mejor opción calidad-precio de la gama Galaxy A.</descripcion>
+        <especificaciones>
+            <almacenamiento>128</almacenamiento>
+            <ram>6</ram>
+            <fechaLanzamiento>2025-03-10</fechaLanzamiento>
+        </especificaciones>
+        <colores>
+            <color hex="#bdfcc9">Mint</color>
+            <color hex="#111111">Black</color> <color hex="#f9f9f9">White</color>
+        </colores>
+        <stock>true</stock>
+    </smartphone>
+
+    <smartphone id="MOV-004" sistema="Android" destacado="true">
         <marca>Samsung</marca>
         <modelo>Galaxy S25</modelo>
         <precio moneda="EUR">909.00</precio>
-        <descripcion>El nuevo estandar de la gama Galaxy S.</descripcion>
+        <descripcion>El nuevo estándar de potencia e IA en Samsung.</descripcion>
         <especificaciones>
             <almacenamiento>256</almacenamiento>
             <ram>8</ram>
@@ -32,138 +69,120 @@
         <colores>
             <color hex="#c4e3cb">Mint</color>
             <color hex="#dcdcdc">Silver Shadow</color>
-        </colores>
-        <stock>true</stock>
-    </smartphone>
-
-    <smartphone id="MOV-003" sistema="iOS" destacado="true">
-        <marca>Apple</marca>
-        <modelo>iPhone 17 Pro Max</modelo>
-        <precio moneda="EUR">1469.00</precio>
-        <descripcion>El iPhone mas potente hasta la fecha.</descripcion>
-        <especificaciones>
-            <almacenamiento>512</almacenamiento>
-            <ram>12</ram>
-            <fechaLanzamiento>2025-09-10</fechaLanzamiento>
-        </especificaciones>
-        <colores>
-            <color hex="#2c3e50">Deep Blue</color>
-            <color hex="#d35400">Cosmic Orange</color>
-        </colores>
-        <stock>true</stock>
-    </smartphone>
-
-    <smartphone id="MOV-004" sistema="Android" destacado="false">
-        <marca>Samsung</marca>
-        <modelo>Galaxy A26</modelo>
-        <precio moneda="EUR">299.00</precio>
-        <descripcion>Gama media con prestaciones premium.</descripcion>
-        <especificaciones>
-            <almacenamiento>128</almacenamiento>
-            <ram>6</ram>
-            <fechaLanzamiento>2025-03-20</fechaLanzamiento>
-        </especificaciones>
-        <colores>
-            <color hex="#bdfcc9">Mint</color>
-            <color hex="#111111">Black</color>
+            <color hex="#dbe9f5">Icy Blue</color>
+            <color hex="#2c3e50">Navy</color>
+            <color hex="#1a1a2e">Blue Black</color>
         </colores>
         <stock>true</stock>
     </smartphone>
 
     <smartphone id="MOV-005" sistema="Android" destacado="false">
         <marca>Motorola</marca>
-        <modelo>Edge 70</modelo>
-        <precio moneda="EUR">999.00</precio>
-        <descripcion>Diseno curvo y camara de alta resolucion.</descripcion>
-        <especificaciones>
-            <almacenamiento>256</almacenamiento>
-            <ram>12</ram>
-            <fechaLanzamiento>2025-05-10</fechaLanzamiento>
-        </especificaciones>
-        <colores>
-            <color hex="#9caea9">Lily Pad</color>
-        </colores>
-        <stock>true</stock>
-    </smartphone>
-
-    <smartphone id="MOV-006" sistema="iOS" destacado="false">
-        <marca>Apple</marca>
-        <modelo>iPhone Air</modelo>
-        <precio moneda="EUR">1219.00</precio>
-        <descripcion>Diseno ultra fino y ligero.</descripcion>
-        <especificaciones>
-            <almacenamiento>256</almacenamiento>
-            <ram>8</ram>
-            <fechaLanzamiento>2025-10-05</fechaLanzamiento>
-        </especificaciones>
-        <colores>
-            <color hex="#f2f2f2">Cloud White</color>
-        </colores>
-        <stock>true</stock>
-    </smartphone>
-
-    <smartphone id="MOV-007" sistema="Android" destacado="false">
-        <marca>Motorola</marca>
         <modelo>G86 Power</modelo>
         <precio moneda="EUR">299.00</precio>
-        <descripcion>Bateria de larga duracion para todo el dia.</descripcion>
+        <descripcion>Batería de larga duración para aguantar todo el día.</descripcion>
         <especificaciones>
             <almacenamiento>128</almacenamiento>
             <ram>8</ram>
-            <fechaLanzamiento>2025-04-15</fechaLanzamiento>
+            <fechaLanzamiento>2025-04-20</fechaLanzamiento>
         </especificaciones>
         <colores>
             <color hex="#485460">Spellbound</color>
+            <color hex="#d4c56e">Golden Cypress</color>
+            <color hex="#d65a64">Chrysanthemum</color>
         </colores>
         <stock>true</stock>
     </smartphone>
 
-    <smartphone id="MOV-008" sistema="iOS" destacado="false">
+    <smartphone id="MOV-006" sistema="iOS" destacado="true">
         <marca>Apple</marca>
-        <modelo>iPhone 17</modelo>
-        <precio moneda="EUR">959.00</precio>
-        <descripcion>El iPhone para todo el mundo.</descripcion>
+        <modelo>iPhone 17 Pro Max</modelo>
+        <precio moneda="EUR">1469.00</precio>
+        <descripcion>El iPhone más grande y potente jamás creado.</descripcion>
         <especificaciones>
-            <almacenamiento>128</almacenamiento>
-            <ram>8</ram>
-            <fechaLanzamiento>2025-09-10</fechaLanzamiento>
+            <almacenamiento>512</almacenamiento>
+            <ram>12</ram>
+            <fechaLanzamiento>2025-09-12</fechaLanzamiento>
         </especificaciones>
         <colores>
-            <color hex="#a7c1d6">Mist Blue</color>
+            <color hex="#2c3e50">Deep Blue</color>
+            <color hex="#e0e0e0">Silver</color>
+            <color hex="#d35400">Cosmic Orange</color>
+        </colores>
+        <stock>true</stock>
+    </smartphone>
+
+    <smartphone id="MOV-007" sistema="iOS" destacado="false">
+        <marca>Apple</marca>
+        <modelo>iPhone Air</modelo>
+        <precio moneda="EUR">1219.00</precio>
+        <descripcion>Diseño ultra fino que redefine la ligereza.</descripcion>
+        <especificaciones>
+            <almacenamiento>256</almacenamiento>
+            <ram>8</ram>
+            <fechaLanzamiento>2025-10-01</fechaLanzamiento>
+        </especificaciones>
+        <colores>
+            <color hex="#f2f2f2">Cloud White</color>
+            <color hex="#cce0ff">Sky Blue</color>
+            <color hex="#fae7d0">Light Gold</color>
+            <color hex="#222222">Space Black</color> </colores>
+        <stock>true</stock>
+    </smartphone>
+
+    <smartphone id="MOV-008" sistema="iOS" destacado="true">
+        <marca>Apple</marca>
+        <modelo>iPhone 17 Pro</modelo>
+        <precio moneda="EUR">1319.00</precio>
+        <descripcion>Potencia Pro en un tamaño perfecto para tu mano.</descripcion>
+        <especificaciones>
+            <almacenamiento>256</almacenamiento>
+            <ram>12</ram>
+            <fechaLanzamiento>2025-09-12</fechaLanzamiento>
+        </especificaciones>
+        <colores>
+            <color hex="#d35400">Cosmic Orange</color>
+            <color hex="#2c3e50">Deep Blue</color>
+            <color hex="#e0e0e0">Silver</color>
         </colores>
         <stock>true</stock>
     </smartphone>
 
     <smartphone id="MOV-009" sistema="iOS" destacado="false">
         <marca>Apple</marca>
-        <modelo>iPhone 17 Pro</modelo>
-        <precio moneda="EUR">1319.00</precio>
-        <descripcion>Potencia pro en tamano compacto.</descripcion>
+        <modelo>iPhone 17</modelo>
+        <precio moneda="EUR">959.00</precio>
+        <descripcion>El iPhone diseñado para todo el mundo.</descripcion>
         <especificaciones>
-            <almacenamiento>256</almacenamiento>
-            <ram>12</ram>
-            <fechaLanzamiento>2025-09-10</fechaLanzamiento>
+            <almacenamiento>128</almacenamiento>
+            <ram>8</ram>
+            <fechaLanzamiento>2025-09-12</fechaLanzamiento>
         </especificaciones>
         <colores>
-            <color hex="#d35400">Cosmic Orange</color>
+            <color hex="#a7c1d6">Mist Blue</color>
+            <color hex="#f0f0f0">White</color>
+            <color hex="#2b2b2b">Black</color>
+            <color hex="#a6bfa1">Sage</color>
+            <color hex="#d6c8e3">Lavender</color>
         </colores>
-        <stock>false</stock>
+        <stock>true</stock>
     </smartphone>
 
     <smartphone id="MOV-010" sistema="Android" destacado="false">
         <marca>Samsung</marca>
-        <modelo>Galaxy Z Flip 7</modelo>
-        <precio moneda="EUR">1100.00</precio>
-        <descripcion>Plegable compacto.</descripcion>
+        <modelo>Galaxy S24 Ultra</modelo>
+        <precio moneda="EUR">1159.00</precio>
+        <descripcion>El rey de la gama anterior sigue siendo una bestia.</descripcion>
         <especificaciones>
-            <almacenamiento>256</almacenamiento>
-            <ram>8</ram>
-            <fechaLanzamiento>2025-08-01</fechaLanzamiento>
+            <almacenamiento>512</almacenamiento>
+            <ram>12</ram>
+            <fechaLanzamiento>2024-01-31</fechaLanzamiento>
         </especificaciones>
         <colores>
-            <color hex="#000000">Graphite</color>
+            <color hex="#808080">Titanium Gray</color>
+            <color hex="#000000">Titanium Black</color>
         </colores>
-        <stock>false</stock>
+        <stock>true</stock>
     </smartphone>
 
 </catalogo>
