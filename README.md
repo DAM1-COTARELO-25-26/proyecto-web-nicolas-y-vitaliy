@@ -29,3 +29,19 @@ Se ha estructurado el catálogo de productos utilizando XML para asegurar la int
 
 ### Validación
 El proceso de validación y las decisiones de diseño (uso de elementos vs atributos, restricciones de tipos, etc.) están documentados en **`/datos/validacion.md`**.
+
+### Transformación de Datos (XSLT)
+Para la generación del catálogo visual, se ha utilizado XSLT, este proceso permite separar completamente los datos de la presentación.
+
+#### Funcionamiento del flujo de datos
+Para que los móviles aparezcan en la pantalla, el proyecto utiliza un sistema de tres pasos:
+* **El Almacén** (`/datos/catalogo.xml`): Es donde guardamos solo los datos (nombre, precio, stock) sin nada de diseño. Es una lista organizada para que el ordenador la entienda fácilmente.
+* **Las Instrucciones** (`/xslt/catalogo-to-html.xsl`): Este archivo contiene las reglas de transformación que indica al ordenador que datos tiene y como utilizarlos.
+* **La visualizacion** (`/xslt/catalogo-to-html.xsl`): Es el resultado final que ve el usuario. Gracias al XSL, esta página se genera automáticamente combinando los datos y las instrucciones.
+
+#### Funcionalidades principales del XSLT aplicado
+* **Matemáticas automáticas**: Cuenta cuántos móviles hay en total y suma todos los precios para darte el valor del inventario sin que tengas que usar una calculadora.
+* **Filtro inteligente**: Revisa el almacén y solo muestra los móviles que tienen stock (true). Si un móvil se agota, desaparece de la tabla automáticamente.
+* **Semáforo de precios**: Compara el precio de cada móvil; si cuesta más de 1000 €, le pone una etiqueta especial para que salga en rojo (caro).
+* **Orden de limpieza**: Se encarga de que todo salga bien peinado, ordenando los móviles primero por su marca y luego por su precio.
+* **Diseño destacado**: Si marcamos un móvil como "destacado" en los datos, el XSL le cambia el color de fondo a la fila para que resalte.
