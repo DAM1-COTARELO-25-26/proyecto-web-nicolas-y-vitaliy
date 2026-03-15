@@ -45,3 +45,22 @@ Para que los móviles aparezcan en la pantalla, el proyecto utiliza un sistema d
 * **Semáforo de precios**: Compara el precio de cada móvil; si cuesta más de 1000 €, le pone una etiqueta especial para que salga en rojo (caro).
 * **Orden de limpieza**: Se encarga de que todo salga bien peinado, ordenando los móviles primero por su marca y luego por su precio.
 * **Diseño destacado**: Si marcamos un móvil como "destacado" en los datos, el XSL le cambia el color de fondo a la fila para que resalte.
+
+## Consultas de Datos (XPath)
+Para buscar y extraer informacion especifica de nuestro catalogo de forma rapida, hemos desarrollado una serie de expresiones de consulta.
+
+### Archivos de las consultas
+* **`/datos/consultas-xpath.md`**: Documento con 10 consultas variadas que incluyen rutas relativas/absolutas, predicados, funciones (conteo, suma, busqueda) y navegacion por ejes.
+* **`/img/xpath-testing.png`**: Captura de pantalla que demuestra el funcionamiento de nuestras consultas en un evaluador XPath online.
+
+## Ejecucion y Capturas (FASE 4)
+Para cumplir con los requisitos del proyecto, detallamos como probar la transformacion y los resultados obtenidos:
+
+### Como ejecutar la transformacion XSLT (2 opciones)
+1. **Opcion 1 (Navegador web)**: Abriendo el archivo `/datos/catalogo.xml` directamente en navegadores como Firefox, Edge o Safari. El navegador leera la etiqueta de estilo y aplicara la transformacion automaticamente.
+2. **Opcion 2 (Extension de VS Code)**: Utilizando extensiones como "XML to HTML", que procesan el archivo XML junto con el XSLT para generar y exportar el archivo HTML final.
+
+### Capturas del resultado
+* **`/img/catalogo-generado.png`**: Captura de pantalla mostrando como queda el catalogo visualmente tras aplicar el XSLT.
+* **`/img/xpath-testing.png`**: Captura de pantalla probando y evaluando con exito una de las consultas XPath.
+
