@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--<!DOCTYPE catalogo SYSTEM "catalogo.dtd">-->
-<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:noNamespaceSchemaLocation="catalogo.xsd">
-
+<!--<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="catalogo.xsd"> >-->
+<?xml-stylesheet type="text/xsl" href="catalogo-to-html.xsl"?>
+<catalogo>
     <smartphone id="MOV-001" sistema="Android" destacado="true">
         <marca>Motorola</marca>
         <modelo>Razr 60 Ultra</modelo>
